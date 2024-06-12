@@ -47,6 +47,10 @@ public class RagdollCancelTimer extends Application implements NativeKeyListener
 
         stage.setScene(scene);
         stage.setTitle("TSB counter");
+
+        // Set stage always on top of windows or apps   
+        stage.setAlwaysOnTop(true);
+
         stage.show();
 
         // Register the NativeKeyListener
